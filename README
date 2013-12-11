@@ -1,0 +1,12 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4794
+
+It's update form http://www.vim.org/scripts/script.php?script_id=2986
+, I fix some bug, add filename using underlined + lowercase letters  and header info
+
+If you want header info.
+vimrc:
+let g:DoxygenToolkit_authorName="Your name"
+let g:DoxygenToolkit_authorEmail="Your email"
+
+command: 
+:AddCppClass
